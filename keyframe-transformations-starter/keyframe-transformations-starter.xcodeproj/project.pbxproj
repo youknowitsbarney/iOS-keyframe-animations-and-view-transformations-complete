@@ -8,25 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1AD5749920A2CFCF00DE9427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5749820A2CFCF00DE9427 /* AppDelegate.swift */; };
-		1AD5749B20A2CFCF00DE9427 /* HolidayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5749A20A2CFCF00DE9427 /* HolidayViewController.swift */; };
 		1AD5749E20A2CFCF00DE9427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5749C20A2CFCF00DE9427 /* Main.storyboard */; };
 		1AD574A020A2CFD200DE9427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5749F20A2CFD200DE9427 /* Assets.xcassets */; };
 		1AD574A320A2CFD200DE9427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD574A120A2CFD200DE9427 /* LaunchScreen.storyboard */; };
-		1AD574AC20A2D1E900DE9427 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD574AB20A2D1E900DE9427 /* CustomButton.swift */; };
-		1AD574AE20A2DDFA00DE9427 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD574AD20A2DDFA00DE9427 /* CustomUIView.swift */; };
 		1AD574B020A2EFBF00DE9427 /* KeyframeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD574AF20A2EFBF00DE9427 /* KeyframeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AD5749520A2CFCF00DE9427 /* keyframe-transformations-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keyframe-transformations-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD5749820A2CFCF00DE9427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AD5749A20A2CFCF00DE9427 /* HolidayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayViewController.swift; sourceTree = "<group>"; };
 		1AD5749D20A2CFCF00DE9427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AD5749F20A2CFD200DE9427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD574A220A2CFD200DE9427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD574A420A2CFD200DE9427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AD574AB20A2D1E900DE9427 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		1AD574AD20A2DDFA00DE9427 /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		1AD574AF20A2EFBF00DE9427 /* KeyframeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +38,6 @@
 		1AD5748C20A2CFCF00DE9427 = {
 			isa = PBXGroup;
 			children = (
-				1AD574AA20A2D19A00DE9427 /* Custom UI */,
 				1AD5749720A2CFCF00DE9427 /* keyframe-transformations-starter */,
 				1AD5749620A2CFCF00DE9427 /* Products */,
 			);
@@ -62,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				1AD5749820A2CFCF00DE9427 /* AppDelegate.swift */,
-				1AD5749A20A2CFCF00DE9427 /* HolidayViewController.swift */,
 				1AD5749C20A2CFCF00DE9427 /* Main.storyboard */,
 				1AD5749F20A2CFD200DE9427 /* Assets.xcassets */,
 				1AD574A120A2CFD200DE9427 /* LaunchScreen.storyboard */,
@@ -70,15 +62,6 @@
 				1AD574AF20A2EFBF00DE9427 /* KeyframeViewController.swift */,
 			);
 			path = "keyframe-transformations-starter";
-			sourceTree = "<group>";
-		};
-		1AD574AA20A2D19A00DE9427 /* Custom UI */ = {
-			isa = PBXGroup;
-			children = (
-				1AD574AB20A2D1E900DE9427 /* CustomButton.swift */,
-				1AD574AD20A2DDFA00DE9427 /* CustomUIView.swift */,
-			);
-			path = "Custom UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD5749B20A2CFCF00DE9427 /* HolidayViewController.swift in Sources */,
-				1AD574AE20A2DDFA00DE9427 /* CustomUIView.swift in Sources */,
 				1AD574B020A2EFBF00DE9427 /* KeyframeViewController.swift in Sources */,
 				1AD5749920A2CFCF00DE9427 /* AppDelegate.swift in Sources */,
-				1AD574AC20A2D1E900DE9427 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
